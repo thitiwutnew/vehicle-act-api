@@ -152,6 +152,11 @@ module.exports = {
       controller: actV2Controller.OtherDetails
     },
     {
+      methods: 'PUT',
+      path: '/act/upload-image/:id',
+      controller: actV2Controller.uploadImage
+    },
+    {
       methods: 'GET',
       path: '/act',
       controller: actV2Controller.getAct
